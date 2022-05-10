@@ -1,0 +1,8 @@
+Comandos básicos git:
+
+1 - git init => inicia o git no diretória no qual é chamado.
+2 - git clone "url" => clona um repositória na nuvem através de um link, HTTPS ou SSH.
+3 - git add => adiciona as mudanças para serem commitadas.
+4 - git commit -m "mensagem" => commita as atulizações com uma mensagem.
+5 - git remote add origin "url" => cria a origem para onde as atualizações serão enviadas. (nada mais é do que um facilitador para não precisar escrever a URL o tempo todo, ela é substituida pela palavra origin)
+6 - git push origin main => envia as atualizações para a brench principal (main ou master).
